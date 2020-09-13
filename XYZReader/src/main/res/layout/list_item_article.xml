@@ -1,0 +1,53 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="1dp"
+    android:layout_margin="@dimen/card_space_between_cards">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/article_title"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/card_start_padding"
+            android:paddingTop="@dimen/card_title_top_padding"
+            android:paddingEnd="@dimen/card_title_end_padding"
+            tools:text="Article Title" />
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingStart="@dimen/card_start_padding"
+            android:paddingTop="@dimen/card_subtitle_top_padding"
+            android:paddingEnd="@dimen/card_subtitle_end_padding"
+            android:paddingBottom="@dimen/card_supporting_text_bottom_padding"
+            tools:text="Article Subtitle" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

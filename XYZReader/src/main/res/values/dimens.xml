@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- details -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">22sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <!-- fab -->
+    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- list item -->
+    <dimen name="li_text_margin">16dp</dimen>
+    <dimen name="li_out_margin">4dp</dimen>
+    <dimen name="li_top_margin">8dp</dimen>
+
+    <!-- cards -->
+    <dimen name="card_start_padding">8dp</dimen>
+    <dimen name="card_title_top_padding">8dp</dimen>
+    <dimen name="card_title_end_padding">16dp</dimen>
+    <dimen name="card_subtitle_top_padding">8dp</dimen>
+    <dimen name="card_subtitle_end_padding">16dp</dimen>
+    <dimen name="card_supporting_text_bottom_padding">16dp</dimen>
+    <dimen name="card_top_and_bottom_padding">8dp</dimen>
+    <dimen name="card_padding_from_edge_of_screen_to_card">4dp</dimen>
+    <dimen name="card_space_between_cards">4dp</dimen>
+
+    <!-- keylines -->
+    <dimen name="keyline_margin_screen_edge">24dp</dimen>
+    <dimen name="keyline_margin_horizontal">24dp</dimen>
+    <dimen name="keyline_margin_content">80dp</dimen>
+
+    <!-- toolbar -->
+    <dimen name="toolbar_expanded_title_margin_bottom">40dp</dimen>
+    <dimen name="toolbar_height_collapsed">56dp</dimen>
+
+</resources>
